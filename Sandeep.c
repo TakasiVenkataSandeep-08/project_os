@@ -218,7 +218,7 @@ void main() {
 		  	printf("Wrong Password Please reenter:\n");
 		  }
 	}
-	if(timeinfo->tm_hour>=18 && timeinfo->tm_hour<19)
+	if(timeinfo->tm_hour>=10 && timeinfo->tm_hour<12)
 	{
 	printf("\nEnter your time quantum you want to share with each query: ");
 	scanf("%d",&TQ);
